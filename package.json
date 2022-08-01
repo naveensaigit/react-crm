@@ -27,7 +27,8 @@
     "copy-woff2-to-lib": "cpx \"./src/**/*.woff2\" ./build/lib",
     "copy-svg-to-lib": "cpx \"./src/**/*.svg\" ./build/lib",
     "copy-png-to-lib": "cpx \"./src/**/*.png\" ./build/lib",
-    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'"
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'",
+    "analyze": "component-analyzer"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -71,7 +72,7 @@
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "jest": "^24.9.0",
-    "node-sass": "^4.14.1",
+    "sass": "^1.54.0",
     "react-redux-typescript-scripts": "^1.6.2",
     "react-docgen-typescript-loader": "^3.6.0",
     "react-test-render": "^1.1.2",

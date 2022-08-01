@@ -340,4 +340,4 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(OrderListPage);
+export default connect(mapStateToProps, mapDispatchToProps)(OrderListPage as any);

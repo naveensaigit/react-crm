@@ -16,8 +16,8 @@ const store = configureStore();
 storiesOf('Welcome', module).add('AppDrawerMenu', () => <Welcome showApp={linkTo('AppDrawerMenu')} />);
 
 storiesOf('AppDrawerMenu', module)
-.addDecorator(getStory => <Provider store={store}>{getStory()}</Provider>)
-.addDecorator(getStory => <MemoryRouter>{getStory()}</MemoryRouter>)
+.addDecorator(getStory => <Provider store={store}>{getStory() as any}</Provider>)
+.addDecorator(getStory => <MemoryRouter>{getStory() as any}</MemoryRouter>)
 .add(
   'with menus items ',
   () => (

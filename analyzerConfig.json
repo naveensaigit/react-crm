@@ -1,0 +1,20 @@
+{
+  /* General */
+  "appStart": "npm start",                      /* Command to start webapp */ 
+  "devToolsHeadless": false,                     /* Run DevTools in Headless mode */
+  "browserHeadless": false,                      /* Run Browser in Headless mode */
+  "devToolsDebug": true,                       /* Debug Log in DevTools */
+
+  /* Render Tree */
+  "renderTreeFile": "renderTree.json",          /* Name of the file containing information about render tree */
+  "refreshConnection": 50,                      /* Time (in ms) before retrying to connect to DevTools or webapp */
+  "checkFile": 1000,                            /* Time interval (in ms) to check if render tree has been extracted and saved */
+  "renderTreeWait": 10000,                       /* Time (in ms) after which DevTools is initialized and render tree must be extracted */
+  "updateFilters": 1000,                        /* Time (in ms) to wait for DevTools to filter out unnecessary components */
+
+  /* Data Generation and Suggestions UI */
+  "analyzeRoute": "http://localhost:3000",      /* Route that is to be analyzed */
+  "dataGenWait": 500,                           /* Time (in ms) after which render tree is extracted and data.json must be prepared */
+  "uiPort": 4242,                               /* Port number on which suggestions UI will be run */
+  "openUI": true                                /* Opens Suggestion UI in browser */
+}

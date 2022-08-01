@@ -1,0 +1,85 @@
+{
+  "1": {
+    "name": "root"
+  },
+  "2": {
+    "name": "Provider",
+    "source": {
+      "fileName": "/Users/naveen/code/react-crm/src/index.tsx",
+      "lineNumber": 17,
+      "columnNumber": 3
+    }
+  },
+  "18": {
+    "name": "ThemeProvider",
+    "source": {
+      "fileName": "/Users/naveen/code/react-crm/src/pages/App.tsx",
+      "lineNumber": 166,
+      "columnNumber": 7
+    }
+  },
+  "128": {
+    "name": "AppNavBar",
+    "source": {
+      "fileName": "/Users/naveen/code/react-crm/src/pages/App.tsx",
+      "lineNumber": 170,
+      "columnNumber": 15
+    }
+  },
+  "164": {
+    "name": "AppNavDrawer",
+    "source": {
+      "fileName": "/Users/naveen/code/react-crm/src/pages/App.tsx",
+      "lineNumber": 174,
+      "columnNumber": 15
+    }
+  },
+  "176": {
+    "name": "AppUserMenu",
+    "source": {
+      "fileName": "/Users/naveen/code/react-crm/src/components/AppNavDrawer.tsx",
+      "lineNumber": 62,
+      "columnNumber": 7
+    }
+  },
+  "204": {
+    "name": "AppDrawerMenu",
+    "source": {
+      "fileName": "/Users/naveen/code/react-crm/src/components/AppNavDrawer.tsx",
+      "lineNumber": 64,
+      "columnNumber": 7
+    }
+  },
+  "597": {
+    "name": "Unstable_TrapFocus",
+    "source": {
+      "fileName": "/Users/naveen/code/react-crm/src/components/AppUserMenu.tsx",
+      "lineNumber": 60,
+      "columnNumber": 3
+    }
+  },
+  "1098": {
+    "name": "PageBase",
+    "source": {
+      "fileName": "/Users/naveen/code/react-crm/src/pages/OrderListPage.tsx",
+      "lineNumber": 224,
+      "columnNumber": 7
+    }
+  },
+  "1164": {
+    "name": "DataTable",
+    "source": {
+      "fileName": "/Users/naveen/code/react-crm/src/pages/OrderListPage.tsx",
+      "lineNumber": 260,
+      "columnNumber": 13
+    }
+  },
+  "1850": {
+    "name": "DeleteDialog",
+    "source": {
+      "fileName": "/Users/naveen/code/react-crm/src/pages/OrderListPage.tsx",
+      "lineNumber": 271,
+      "columnNumber": 13
+    }
+  }
+}

@@ -226,7 +226,7 @@ class CustomerFormPage extends React.Component<
                   <Grid item style={styles.cell} xs={12} md={4}>
                     {customer.avatar && (
                       <Card style={styles.card}>
-                        <img width={100} src={customer.avatar} />
+                        <img alt="avatar" width={100} src={customer.avatar} />
                       </Card>
                     )}
                   </Grid>
@@ -285,4 +285,4 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(CustomerFormPage);
+export default connect(mapStateToProps, mapDispatchToProps)(CustomerFormPage as any);

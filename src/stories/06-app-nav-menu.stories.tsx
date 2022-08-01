@@ -35,9 +35,9 @@ storiesOf("Welcome", module).add("AppNavDrawer", () => (
 
 storiesOf("AppNavDrawer", module)
   .addDecorator((storyFn, context) => withConsole()(storyFn)(context))
-  .addDecorator((getStory) => <Provider store={store}>{getStory()}</Provider>)
-  .addDecorator((getStory) => <MemoryRouter>{getStory()}</MemoryRouter>)
-  .addDecorator((getStory) => <AppDrawerMenu>{getStory()}</AppDrawerMenu>)
+  .addDecorator((getStory) => <Provider store={store}>{getStory() as any}</Provider>)
+  .addDecorator((getStory) => <MemoryRouter>{getStory() as any}</MemoryRouter>)
+  .addDecorator((getStory) => <AppDrawerMenu>{getStory() as any}</AppDrawerMenu>)
   .add("with user menu and nav menus", () => (
     <AppNavDrawer
       drawerStyle={"drawer"}

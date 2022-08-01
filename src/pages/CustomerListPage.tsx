@@ -362,4 +362,4 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(CustomerListPage);
+export default connect(mapStateToProps, mapDispatchToProps)(CustomerListPage as any);

@@ -6,7 +6,7 @@ import SignInPage from "./pages/SignInPage";
 export const routes = (
   <div>
     <Switch>
-      <Route path="/" component={App} />
+      <Route path="/" component={App as any} />
       <Route path="/login" component={SignInPage} />
     </Switch>
   </div>

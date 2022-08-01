@@ -510,4 +510,4 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(OrderFormPage);
+export default connect(mapStateToProps, mapDispatchToProps)(OrderFormPage as any);

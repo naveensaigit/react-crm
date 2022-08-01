@@ -10,7 +10,7 @@ import ContentCreate from "@material-ui/icons/Create";
 import ActionDelete from "@material-ui/icons/Delete";
 import CheckCircle from "@material-ui/icons/CheckCircle";
 import Cancel from "@material-ui/icons/Cancel";
-import { pink, grey, green, common } from "@material-ui/core/colors";
+import { grey, green, common } from "@material-ui/core/colors";
 import { Container, Tooltip } from "@material-ui/core";
 
 const grey500 = grey["500"];
@@ -74,7 +74,7 @@ function DataTable<DataTableProps>({
   // =>
   const renderData = (dataKey: string, data: TODO) => {
     if (dataKey === "avatar") {
-      return <img width={35} src={data[dataKey]} />;
+      return <img alt="dataKey" width={35} src={data[dataKey]} />;
     } else if (dataKey === "membership") {
       return data[dataKey] ? <CheckCircle /> : <Cancel />;
     } else if (dataKey === "actions") {

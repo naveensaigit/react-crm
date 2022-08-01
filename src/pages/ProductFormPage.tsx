@@ -193,7 +193,7 @@ class ProductFormPage extends React.Component<
                   <Grid item style={styles.cell} xs={12} md={4}>
                     {product && product.avatar && (
                       <Card style={styles.card}>
-                        <img width={100} src={product.avatar} />
+                        <img alt="avatar" width={100} src={product.avatar} />
                       </Card>
                     )}
                   </Grid>
@@ -256,4 +256,4 @@ function mapDispatchToProps(dispatch) {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ProductFormPage);
+export default connect(mapStateToProps, mapDispatchToProps)(ProductFormPage as any);
